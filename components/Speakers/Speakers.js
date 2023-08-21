@@ -8,13 +8,14 @@ const Speakers = () => {
   const speakers = data.filter((speaker) => speaker.name !== undefined);
 
   return (
-    <section className={classes["speakers-container"]}>
+    <div className={classes["speakers-container"]}>
       <ul>
+        {/* <li>Hej hej</li> */}
         {speakers.map((speaker) => (
           <SpeakerItem speaker={speaker} />
         ))}
       </ul>
-    </section>
+    </div>
   );
 };
 

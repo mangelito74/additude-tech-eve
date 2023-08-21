@@ -11,6 +11,8 @@
 .schedule-item-speaker {
   font-style: italic;
   font-size: 1.2rem;
+  color: var(--primary-orange);
+  /* font-weight: 700; */
 }
 
 .schedule-item-speaker span {
