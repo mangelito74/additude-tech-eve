@@ -1,0 +1,8 @@
+.main {
+  /* background-image: url("/additude-tech-eve-background.png");
+  background-size: cover; */
+  height: 100vh;
+  margin: 1rem auto;
+  /* width: 90%; */
+  max-width: 50rem;
+}

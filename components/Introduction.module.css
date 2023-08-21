@@ -1,0 +1,24 @@
+.introduction {
+  background-image: url("/additude-tech-eve-background.png");
+  background-size: cover;
+  height: 100vh;
+  padding: 4.1rem 2rem;
+  color: white;
+}
+
+.introduction h1 {
+  font-size: 2.5rem;
+}
+
+.introduction h2 {
+  font-size: 2rem;
+}
+
+.introduction h2 {
+  font-size: 1.5rem;
+}
+
+.introduction hr {
+  width: 33rem;
+  margin-left: 0;
+}

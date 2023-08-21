@@ -1,0 +1,12 @@
+.speakers-container {
+  /* background-color: var(--primary-orange-80); */
+  height: 100vh;
+  margin-bottom: 50rem;
+}
+
+.speakers-container ul {
+  /* margin: 1rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 50rem; */
+}

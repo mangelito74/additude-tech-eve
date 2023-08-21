@@ -1,0 +1,33 @@
+.speaker-container {
+  display: flex;
+  background-color: var(--primary-orange-80);
+  margin: 0.1rem 0;
+  padding: 1rem;
+}
+
+.speaker-container h2 {
+  margin-bottom: 1rem;
+}
+
+.speaker-content-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.speaker-content-about {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.speaker-image-container {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+
+.speaker-image {
+  height: 100%;
+  object-fit: cover;
+}
