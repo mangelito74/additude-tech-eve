@@ -9,12 +9,12 @@
 }
 
 .schedule-item-speaker {
-  font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--primary-orange);
 }
 
 .schedule-item-speaker span {
+  font-size: 1.3rem;
   margin-left: 1rem;
 }
 
@@ -23,8 +23,9 @@
     min-width: 114px;
   }
 
-  .schedule-item-speaker {
-    font-size: 1rem;
+  .schedule-item-speaker,
+  .schedule-item-speaker span {
+    font-size: 1.2rem;
   }
 
   .schedule-item-speaker span {
