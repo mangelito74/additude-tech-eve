@@ -5,10 +5,6 @@
   padding: 3rem 1rem;
 }
 
-.speaker-container a:active, .speaker-container a:focus {
-  background-color: red !important;
-}
-
 .speaker-container h2 {
   margin-bottom: 1rem;
 }
