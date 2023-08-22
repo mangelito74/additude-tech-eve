@@ -36,6 +36,7 @@
 @media screen and (max-width: 820px) {
   .introduction {
     margin: 0.5rem;
+    padding: 3rem 1.5rem;
   }
 }
 
@@ -48,6 +49,12 @@
 @media screen and (max-width: 560px) {
   .introduction h1 {
     font-size: 1.9rem;
+  }
+  .introduction h2 {
+    font-size: 1.7rem;
+  }
+  .introduction h3 {
+    font-size: 1.5rem;
   }
 }
 
