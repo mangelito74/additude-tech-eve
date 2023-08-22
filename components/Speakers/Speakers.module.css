@@ -1,16 +1,12 @@
 .speakers-container {
-  /* background-color: var(--primary-orange-80); */
-  /* height: 100vh;
-  margin-bottom: 50rem; */
   border-radius: 15px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
-  margin-bottom: 2rem;
-
+  overflow: hidden;
+  margin-bottom: 1rem !important;
 }
 
-.speakers-container ul {
-  /* margin: 1rem auto;
-  padding: 1rem;
-  width: 90%;
-  max-width: 50rem; */
+@media screen and (max-width: 820px) {
+  .speakers-container {
+    margin: 0 0.5rem;
+  }
 }

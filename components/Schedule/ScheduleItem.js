@@ -8,8 +8,9 @@ const ScheduleItem = (props) => {
       </div>
       <div>
         <div>{props.item.title}</div>
-        <div className={classes["schedule-item-speaker"]}>{props.item.name} 
-        {props.item.name && <span>(Read more)</span>}
+        <div className={classes["schedule-item-speaker"]}>
+          {props.item.name}
+          {props.item.name && <span>(Read more)</span>}
         </div>
       </div>
     </div>

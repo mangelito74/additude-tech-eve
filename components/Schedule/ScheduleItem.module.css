@@ -12,9 +12,22 @@
   font-style: italic;
   font-size: 1.2rem;
   color: var(--primary-orange);
-  /* font-weight: 700; */
 }
 
 .schedule-item-speaker span {
   margin-left: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .schedule-item-time {
+    min-width: 110px;
+  }
+
+  .schedule-item-speaker {
+    font-size: 1rem;
+  }
+
+  .schedule-item-speaker span {
+    margin-left: 0.5rem;
+  }
 }

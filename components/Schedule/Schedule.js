@@ -7,11 +7,13 @@ import { data } from "../../lib/data";
 const Schedule = () => {
   return (
     <section className={classes["schedule-container"]}>
-      <ul>
-        {data.map((item) => (
-          <ScheduleItem item={item} />
-        ))}
-      </ul>
+      <nav id="main">
+        <ul>
+          {data.map((item) => (
+            <ScheduleItem item={item} />
+          ))}
+        </ul>
+      </nav>
     </section>
   );
 };
