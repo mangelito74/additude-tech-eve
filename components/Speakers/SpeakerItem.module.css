@@ -2,7 +2,7 @@
   display: flex;
   background-color: var(--primary-orange-80);
   margin: 0.1rem 0;
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 
 .speaker-container a:active, .speaker-container a:focus {
