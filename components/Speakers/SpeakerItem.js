@@ -2,8 +2,8 @@ import classes from "./SpeakerItem.module.css";
 
 const SpeakerItem = (props) => {
   return (
-    <li key={props.speaker.id} className={classes["speaker-container"]}>
-      <a id={props.speaker.id}>
+    <li key={props.speaker.id} id={props.speaker.id} className={classes["speaker-container"]}>
+      {/* <a id={props.speaker.id}> */}
         <h2>{props.speaker.title}</h2>
         <div className={classes["speaker-content-container"]}>
           <div>
@@ -21,7 +21,7 @@ const SpeakerItem = (props) => {
             />
           </div>
         </div>
-      </a>
+      {/* </a> */}
     </li>
   );
 };
