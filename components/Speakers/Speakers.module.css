@@ -2,7 +2,10 @@
   border-radius: 15px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
   overflow: hidden;
-  margin-bottom: 1rem !important;
+}
+
+.speakers-padding-bottom {
+  padding-bottom: 4rem;;
 }
 
 @media screen and (max-width: 820px) {
