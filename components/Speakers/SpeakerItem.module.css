@@ -5,6 +5,10 @@
   padding: 3rem 1rem;
 }
 
+.speaker-container:last-of-type {
+  margin: 0;
+}
+
 .speaker-container h2 {
   margin-bottom: 1rem;
 }

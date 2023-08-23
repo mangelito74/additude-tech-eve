@@ -4,10 +4,6 @@
   overflow: hidden;
 }
 
-.speakers-padding-bottom {
-  padding-bottom: 4rem;;
-}
-
 @media screen and (max-width: 820px) {
   .speakers-container {
     margin: 0 0.5rem;
