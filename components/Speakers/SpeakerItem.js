@@ -8,7 +8,12 @@ const SpeakerItem = (props) => {
       className={classes["speaker-container"]}
     >
       <h2>{props.speaker.title}</h2>
-      <div className={classes["speaker-content-container"]}>
+      <div>
+        <img
+          src={props.speaker.image}
+          title={props.speaker.name}
+          className={classes["speaker-image"]}
+        />
         <div>
           <div>{props.speaker.description}</div>
           <div className={classes["speaker-content-about"]}>
@@ -16,11 +21,6 @@ const SpeakerItem = (props) => {
           </div>
           <div> {props.speaker.biography}</div>
         </div>
-        <img
-          src={props.speaker.image}
-          title={props.speaker.name}
-          className={classes["speaker-image"]}
-        />
       </div>
     </li>
   );
