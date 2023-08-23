@@ -2,26 +2,26 @@ import classes from "./SpeakerItem.module.css";
 
 const SpeakerItem = (props) => {
   return (
-    <li key={props.speaker.id} id={props.speaker.id} className={classes["speaker-container"]}>
-      {/* <a id={props.speaker.id}> */}
-        <h2>{props.speaker.title}</h2>
-        <div className={classes["speaker-content-container"]}>
-          <div>
-            <div>{props.speaker.description}</div>
-            <div className={classes["speaker-content-about"]}>
-              About {props.speaker.name}:
-            </div>
-            <div> {props.speaker.biography}</div>
+    <li
+      key={props.speaker.id}
+      id={props.speaker.id}
+      className={classes["speaker-container"]}
+    >
+      <h2>{props.speaker.title}</h2>
+      <div className={classes["speaker-content-container"]}>
+        <div>
+          <div>{props.speaker.description}</div>
+          <div className={classes["speaker-content-about"]}>
+            About {props.speaker.name}:
           </div>
-          <div className={classes["speaker-image-container"]}>
-            <img
-              src={props.speaker.image}
-              title={props.speaker.name}
-              className={classes["speaker-image"]}
-            />
-          </div>
+          <div> {props.speaker.biography}</div>
         </div>
-      {/* </a> */}
+        <img
+          src={props.speaker.image}
+          title={props.speaker.name}
+          className={classes["speaker-image"]}
+        />
+      </div>
     </li>
   );
 };
